@@ -1,3 +1,4 @@
+
 # -*- coding:utf-8 -*-
 
 """
@@ -22,9 +23,13 @@ import random
 
 import numpy as np
 import tensorflow as tf
-from tensorflow.python.keras import backend as K
-from tensorflow.python.keras.layers import Embedding, Input, Lambda
-from tensorflow.python.keras.models import Model
+# from tensorflow.python.keras import backend as K
+# from tensorflow.python.keras.layers import Embedding, Input, Lambda
+# from tensorflow.python.keras.models import Model
+from keras import backend as K
+from keras.layers import Embedding, Input, Lambda
+from keras.models import Model
+
 
 from ..alias import create_alias_table, alias_sample
 from ..utils import preprocess_nxgraph
